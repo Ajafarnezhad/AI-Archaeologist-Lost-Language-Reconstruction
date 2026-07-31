@@ -35,30 +35,30 @@ We also wished to move beyond treating language as individual words.
 By organizing reconstructed information into knowledge graphs, the system captures the relationships between historical entities and concepts, making the output more informative.
 
 System Workflow:  
-Fragmented Ancient Text
-        │
-        ▼
-Preprocessing
-        │
-        ▼
-Deep Learning Reconstruction
-        │
-        ▼
-Lexicon & Translation Memory
-        │
-        ▼
-Semantic Analysis
-        │
-        ▼
-Knowledge Graph Construction
-        │
-        ▼
-Confidence Estimation
-        │
-        ▼
-Explainability Report
-        │
-        ▼
+Fragmented Ancient Text  
+        │  
+        ▼  
+Preprocessing  
+        │  
+        ▼  
+Deep Learning Reconstruction  
+        │  
+        ▼  
+Lexicon & Translation Memory  
+        │  
+        ▼  
+Semantic Analysis  
+        │  
+        ▼  
+Knowledge Graph Construction  
+        │  
+        ▼  
+Confidence Estimation  
+        │  
+        ▼  
+Explainability Report  
+        │  
+        ▼  
 Final Reconstruction
 
 Example:  
