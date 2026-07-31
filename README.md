@@ -1,4 +1,5 @@
-AI Archaeologist: Graph-Enhanced Ancient Language Reconstruction  
+AI Archaeologist: Graph-Enhanced Ancient Language Reconstruction
+
 Project Overview:  
 Throughout history, many ancient inscriptions have been damaged by factors like time, natural disasters and human activity.
 As a result, many historical texts are incomplete, leaving archaeologists with broken sentences and uncertain meanings due to missing words and symbols.
@@ -13,7 +14,8 @@ The process begins by preprocessing fragmented text before passing it through an
 The generated predictions are then refined using lexical correction and translation memory, allowing the system to compare fragments with similar historical examples.
 Next, semantic analysis identifies important relationships within the reconstructed sentence. These relationships are transformed into an archaeological knowledge graph that connects historical periods, semantic concepts, linguistic relationships, words, and characters.
 Finally, the system evaluates its own confidence and generates an explanation describing why a particular reconstruction was selected.
-This multi-layered approach makes the system more reliable while also making its decisions easier to understand.  
+This multi-layered approach makes the system more reliable while also making its decisions easier to understand.
+
 Features:  
 Our system includes:  
 Deep learning ensemble for reconstructing damaged text  
