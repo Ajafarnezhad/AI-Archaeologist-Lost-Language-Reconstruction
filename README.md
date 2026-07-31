@@ -1,7 +1,5 @@
-AI Archaeologist: Graph-Enhanced Ancient Language Reconstruction
-
-Project Overview:
-
+AI Archaeologist: Graph-Enhanced Ancient Language Reconstruction  
+Project Overview:  
 Throughout history, many ancient inscriptions have been damaged by factors like time, natural disasters and human activity.
 As a result, many historical texts are incomplete, leaving archaeologists with broken sentences and uncertain meanings due to missing words and symbols.
 Reconstructing these fragments is often a time-consuming and inefficient process that requires high expertise and considerable time.
