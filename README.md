@@ -23,10 +23,55 @@ Deep learning ensemble for reconstructing damaged text
 Intelligent post-processing to improve quality  
 Translation memory retrieval using similar historical examples  
 Semantic analysis for better understanding  
-Confidence estimation for every prediction
-
-Explainability reports describing the reasoning behind predictions
-
-Interactive multi-layer archaeological knowledge graphs
-
+Confidence estimation for every prediction  
+Explainability reports describing the reasoning behind predictions  
+Interactive multi-layer archaeological knowledge graphs  
 Graph-based visualization of semantic and historical relationships
+
+Why We Built It This Way:  
+One of the greatest challenges in ancient language reconstruction is uncertainty. Several different reconstructions may seem reasonable, yet only one reflects the original meaning.  
+Instead of hiding this uncertainty, we designed our system to acknowledge it. Every reconstruction is accompanied by a confidence score and supporting evidence so users can better understand the reliability of the prediction.  
+We also wished to move beyond treating language as individual words.
+By organizing reconstructed information into knowledge graphs, the system captures the relationships between historical entities and concepts, making the output more informative.
+
+System Workflow:  
+Fragmented Ancient Text
+        │
+        ▼
+Preprocessing
+        │
+        ▼
+Deep Learning Reconstruction
+        │
+        ▼
+Lexicon & Translation Memory
+        │
+        ▼
+Semantic Analysis
+        │
+        ▼
+Knowledge Graph Construction
+        │
+        ▼
+Confidence Estimation
+        │
+        ▼
+Explainability Report
+        │
+        ▼
+Final Reconstruction
+
+Example:  
+Input:  
+The k__g built the temple.  
+Reconstruction:  
+The king built the temple.  
+Confidence:  
+94%  
+Supporting Evidence:  
+Grammar consistency  
+Semantic context  
+Translation memory  
+Knowledge graph relationships
+
+Dependencies:
