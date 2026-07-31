@@ -25,10 +25,17 @@ Features:
 Our system includes:
 
 Deep learning ensemble for reconstructing damaged text
+
 Intelligent post-processing to improve quality
+
 Translation memory retrieval using similar historical examples
+
 Semantic analysis for better understanding
+
 Confidence estimation for every prediction
+
 Explainability reports describing the reasoning behind predictions
+
 Interactive multi-layer archaeological knowledge graphs
+
 Graph-based visualization of semantic and historical relationships
