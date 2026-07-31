@@ -8,5 +8,5 @@ Reconstructing these fragments is often a time-consuming and inefficient process
 
 AI Archaeologist was developed to assist in this process.
 Our goal was to build an intelligent system capable of reconstructing missing language fragments, while explaining the reasoning behind each prediction.
-Instead of serving as a simple text prediction model, our system combines deep-learning, semantic reasoning and explainable AI to produce reconstruction that are understandable and accurate.
-By combining multiple techniques into a single pipeline, AI Archaeologist predicts missing text and provides confidence estimates with supporting evidence, and graph-based representation of relationships within historical documents.
+Instead of serving as a simple text prediction model, our system combines deep-learning, semantic reasoning and explainable AI to produce reconstructions that are understandable and accurate.
+By combining multiple techniques into a single pipeline, AI Archaeologist not only predicts missing text but also provides confidence estimates, supporting evidence, and graph-based representation of relationships within historical documents.
