@@ -19,3 +19,16 @@ The generated predictions are then refined using lexical correction and translat
 Next, semantic analysis identifies important relationships within the reconstructed sentence. These relationships are transformed into an archaeological knowledge graph that connects historical periods, semantic concepts, linguistic relationships, words, and characters.
 Finally, the system evaluates its own confidence and generates an explanation describing why a particular reconstruction was selected.
 This multi-layered approach makes the system more reliable while also making its decisions easier to understand.
+
+Features:
+
+Our system includes:
+
+Deep learning ensemble for reconstructing damaged text
+Intelligent post-processing to improve quality
+Translation memory retrieval using similar historical examples
+Semantic analysis for better understanding
+Confidence estimation for every prediction
+Explainability reports describing the reasoning behind predictions
+Interactive multi-layer archaeological knowledge graphs
+Graph-based visualization of semantic and historical relationships
