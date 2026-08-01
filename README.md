@@ -74,4 +74,22 @@ Semantic context
 Translation memory  
 Knowledge graph relationships
 
-Dependencies:
+Dependencies:  
+os  
+re  
+gc  
+csv  
+json  
+torch  
+difflib  
+warnings  
+unicodedata  
+numpy  
+pandas  
+pathlib  
+tqdm  
+plotly  
+collections  
+transformers  
+torch
+
