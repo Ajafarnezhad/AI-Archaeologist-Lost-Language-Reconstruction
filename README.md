@@ -93,3 +93,12 @@ collections
 transformers  
 torch
 
+How to run:  
+
+Future Improvements:  
+Although the current system provides reliable reconstructions, there are many exciting directions for future development.  
+These include supporting OCR for damaged inscriptions, incorporating Graph Neural Networks for richer historical reasoning, and expanding multilingual datasets.
+
+Why This Project Matters:  
+Ancient languages are an essential part of human history, but many historical records remain incomplete or difficult to interpret. We believe artificial intelligence can become a valuable tool for archaeologists and historians by assisting with reconstruction and interpretation.  
+Our goal was not to replace archaeologists, but to develop a system
