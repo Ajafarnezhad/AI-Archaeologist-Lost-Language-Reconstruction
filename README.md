@@ -101,4 +101,12 @@ These include supporting OCR for damaged inscriptions, incorporating Graph Neura
 
 Why This Project Matters:  
 Ancient languages are an essential part of human history, but many historical records remain incomplete or difficult to interpret. We believe artificial intelligence can become a valuable tool for archaeologists and historians by assisting with reconstruction and interpretation.  
-Our goal was not to replace archaeologists, but to develop a system
+Our goal was not to replace archaeologists, but to develop a system that helps them work more efficiently by providing informed suggestions, visualizing historical relationships and explaining the reconstruction process.
+
+Team:  
+Team members:  
+
+Contact:  
+
+Acknowledgements:  
+This projects was developed for the Innoverse Expo AI Programming Challenge. It reflects our interest in combining artificial intelligence, historical linguistics and digital archaeology to develop practical tools that can aid the relentless efforts made by experts for understanding and preserving ancient languages.
