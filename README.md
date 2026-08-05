@@ -1,7 +1,7 @@
 # AI Archaeologist: Graph-Enhanced Ancient Language Reconstruction
 
 Project Overview:  
-Ancient texts are often incomplete because they have been damaged by time, weather, or human activity. Missing words and broken inscriptions make it difficult for archaeologists to understand the concept of the original texts.
+Ancient inscriptions are often incomplete because they have been damaged by time, weather, or human activity. Missing words and broken tablets make it difficult for archaeologists to understand the concept of the original texts.
 Reconstructing these fragments is often a time-consuming and inefficient process that requires high expertise and considerable time.  
 AI Archaeologist was developed to assist in this process.
 We developed this intelligent system to help in reconstructing missing language fragments, while explaining the reasoning behind each prediction.
