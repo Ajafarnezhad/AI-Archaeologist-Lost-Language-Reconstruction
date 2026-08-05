@@ -89,7 +89,6 @@ tqdm
 plotly  
 collections  
 transformers  
-torch
 
 How to run:  
 
