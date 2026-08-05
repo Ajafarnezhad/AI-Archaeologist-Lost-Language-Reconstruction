@@ -15,6 +15,12 @@ Next, semantic analysis identifies important relationships within the reconstruc
 Finally, the system evaluates its own confidence and generates an explanation describing why a particular reconstruction was selected.
 This multi-layered approach makes the system more reliable while also making its decisions easier to understand.
 
+Why We Built It This Way:  
+One of the greatest challenges in ancient language reconstruction is uncertainty. Several different reconstructions may seem reasonable, yet only one reflects the original meaning.  
+Instead of hiding this uncertainty, we designed our system to acknowledge it. Every reconstruction is accompanied by a confidence score and supporting evidence so users can better understand the reliability of the prediction.  
+We also wished to move beyond treating language as individual words.
+By organizing reconstructed information into knowledge graphs, the system captures the relationships between historical entities and concepts, making the output more informative.
+
 Features:  
 Our system includes:  
 Ensemble deep learning reconstruction using multiple ByT5 models 
@@ -26,12 +32,6 @@ Explainability reports describing the reasoning behind predictions
 Interactive multi-layer archaeological knowledge graphs  
 Graph-based visualization of semantic and historical relationships
 
-Why We Built It This Way:  
-One of the greatest challenges in ancient language reconstruction is uncertainty. Several different reconstructions may seem reasonable, yet only one reflects the original meaning.  
-Instead of hiding this uncertainty, we designed our system to acknowledge it. Every reconstruction is accompanied by a confidence score and supporting evidence so users can better understand the reliability of the prediction.  
-We also wished to move beyond treating language as individual words.
-By organizing reconstructed information into knowledge graphs, the system captures the relationships between historical entities and concepts, making the output more informative.
-
 System Workflow:  
 Fragmented Ancient Text  
         │  
@@ -39,10 +39,10 @@ Fragmented Ancient Text
 Preprocessing  
         │  
         ▼  
-Deep Learning Reconstruction  
+Deep Learning Ensemble  
         │  
         ▼  
-Lexicon & Translation Memory  
+Lexicon Matching & Translation Memory  
         │  
         ▼  
 Semantic Analysis  
@@ -69,7 +69,7 @@ Confidence:
 Supporting Evidence:  
 Grammar consistency  
 Semantic context  
-Translation memory  
+Translation memory retrieval  
 Knowledge graph relationships
 
 Dependencies:  
@@ -94,21 +94,17 @@ torch
 How to run:  
 
 Future Improvements:  
-Although the current system provides reliable reconstructions, there are many exciting directions for future development.  
-These include supporting OCR for damaged inscriptions, incorporating Graph Neural Networks for richer historical reasoning, and expanding multilingual datasets.
-
-Why This Project Matters:  
-Ancient languages are an essential part of human history, but many historical records remain incomplete or difficult to interpret. We believe artificial intelligence can become a valuable tool for archaeologists and historians by assisting with reconstruction and interpretation.  
-Our goal was not to replace archaeologists, but to develop a system that helps them work more efficiently by providing informed suggestions, visualizing historical relationships and explaining the reconstruction process.
+Although the current system provides reliable reconstructions, there are many exciting directions we would like to explore in the future.  
+These include supporting OCR for damaged inscriptions, incorporating Graph Neural Networks for richer historical reasoning, and using multilingual datasets.
 
 Team:  
 Team members:  
-Sepehr Kakoli: 
+Sepehr Kakoli: Code localization, confidence interval integration and performance analysis.
 Seyedeh Sara Davari: Interactive graph development, code refactoring and README preperation.
-Danial Rafiee: 
-Ali Akbar Khara: 
+Danial Rafiee: UI/UX Design.
+Ali Akbar Khara: Baseline Implementation.
 
 Contact:  
 
 Acknowledgements:  
-This projects was developed for the Innoverse Expo AI Programming Challenge. It reflects our interest in combining artificial intelligence, historical linguistics and digital archaeology to develop practical tools that can aid the relentless efforts made by experts for understanding and preserving ancient languages.
+This projects was developed for the Innoverse Expo AI Programming Challenge. It gave us an opportunity to explore how modern AI techniques can be applied to ancient language reconstruction and how explainable AI can make the results and predictions more transparent.
