@@ -23,7 +23,7 @@ By organizing reconstructed information into knowledge graphs, the system captur
 
 Features:  
 Our system includes:  
-Ensemble deep learning reconstruction using multiple ByT5 models 
+Ensemble deep learning reconstruction using multiple ByT5 models  
 Intelligent post-processing to improve quality  
 Translation memory retrieval using similar historical examples  
 Semantic analysis for better understanding  
