@@ -1,25 +1,23 @@
 # AI Archaeologist: Graph-Enhanced Ancient Language Reconstruction
 
 Project Overview:  
-Throughout history, many ancient inscriptions have been damaged by factors like time, natural disasters and human activity.
-As a result, many historical texts are incomplete, leaving archaeologists with broken sentences and uncertain meanings due to missing words and symbols.
+Ancient texts are often incomplete because they have been damaged by time, weather, or human activity. Missing words and broken inscriptions make it difficult for archaeologists to understand the concept of the original texts.
 Reconstructing these fragments is often a time-consuming and inefficient process that requires high expertise and considerable time.  
 AI Archaeologist was developed to assist in this process.
-Our goal was to build an intelligent system capable of reconstructing missing language fragments, while explaining the reasoning behind each prediction.
-Instead of serving as a simple text prediction model, our system combines deep-learning, semantic reasoning and explainable AI to produce reconstructions that are understandable and accurate.
-By combining multiple techniques into a single pipeline, AI Archaeologist not only predicts missing text but also provides confidence estimates, supporting evidence, and graph-based representation of relationships within historical documents.
+We developed this intelligent system to help in reconstructing missing language fragments, while explaining the reasoning behind each prediction.
+One of our main goals was to make the system explainable. Rather than only generating a reconstructed text, the model also provides confidence scores, supporting evidence, and graph-based representations to help users understand the process of reaching the final prediction.
 
-Our Approach:  
-Rather than relying on a single model, we designed a complete reconstruction pipeline where each element contributes to improving the final prediction.
+Our Solution:  
+We designed a reconstruction pipeline where each element contributes to improving the final prediction.
 The process begins by preprocessing fragmented text before passing it through an ensemble of deep learning models.
-The generated predictions are then refined using lexical correction and translation memory, allowing the system to compare fragments with similar historical examples.
+The generated predictions are then refined using lexical matching and translation memory, allowing the system to compare fragments with examples seen before.
 Next, semantic analysis identifies important relationships within the reconstructed sentence. These relationships are transformed into an archaeological knowledge graph that connects historical periods, semantic concepts, linguistic relationships, words, and characters.
 Finally, the system evaluates its own confidence and generates an explanation describing why a particular reconstruction was selected.
 This multi-layered approach makes the system more reliable while also making its decisions easier to understand.
 
 Features:  
 Our system includes:  
-Deep learning ensemble for reconstructing damaged text  
+Ensemble deep learning reconstruction using multiple ByT5 models 
 Intelligent post-processing to improve quality  
 Translation memory retrieval using similar historical examples  
 Semantic analysis for better understanding  
@@ -105,6 +103,10 @@ Our goal was not to replace archaeologists, but to develop a system that helps t
 
 Team:  
 Team members:  
+Sepehr Kakoli: 
+Seyedeh Sara Davari: Interactive graph development, code refactoring and README preperation.
+Danial Rafiee: 
+Ali Akbar Khara: 
 
 Contact:  
 
