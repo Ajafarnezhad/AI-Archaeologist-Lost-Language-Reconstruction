@@ -1,4 +1,4 @@
-# AI Archaeologist: Graph-Enhanced Ancient Language Reconstruction
+# AI Archaeologist: Ancient Language Reconstruction
 
 Project Overview:  
 Ancient inscriptions are often incomplete because they have been damaged by time, weather, or human activity. Missing words and broken tablets make it difficult for archaeologists to understand the concept of the original texts.
