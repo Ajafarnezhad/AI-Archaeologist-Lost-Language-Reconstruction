@@ -2,7 +2,7 @@
 
 Project Overview:  
 Ancient inscriptions are often incomplete because they have been damaged by time, weather, or human activity. Missing words and broken tablets make it difficult for archaeologists to understand the concept of the original texts.
-Reconstructing these fragments is often a time-consuming and inefficient process that requires high expertise and considerable time.  
+Reconstructing these fragments is often a time-consuming and inefficient process that requires high expertise.  
 AI Archaeologist was developed to assist in this process.
 We built this intelligent system to help in reconstructing missing language fragments, while explaining the reasoning behind each prediction.
 One of our main goals was to make the system explainable. Rather than only generating a reconstructed text, the model also provides confidence scores, supporting evidence, and graph-based representations to help users understand the process of reaching the final prediction.
