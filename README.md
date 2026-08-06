@@ -104,6 +104,10 @@ Danial Rafiee: UI/UX Design.
 Ali Akbar Khara: Baseline Implementation.
 
 Contact:  
+Sepehr Kakoli: sepehrk890@gmail.com  
+Seyedeh Sara Davari: saradavari2009@gmail.com  
+Danial Rafiee:  
+Ali Akbar Khara: mzkh209090@gmail.com
 
 Acknowledgements:  
 This projects was developed for the Innoverse Expo AI Programming Challenge. It gave us an opportunity to explore how modern AI techniques can be applied to ancient language reconstruction and how explainable AI can make the results and predictions more transparent.
