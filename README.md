@@ -98,12 +98,14 @@ These include supporting OCR for damaged inscriptions, incorporating Graph Neura
 
 Team:  
 Team members:  
+Amirhossein Jafarnezhad: Team leader
 Sepehr Kakoli: Code localization, confidence interval integration and performance analysis.  
 Seyedeh Sara Davari: Interactive graph development, code refactoring and README preperation.  
 Danial Rafiee: UI/UX Design.  
 Ali Akbar Khara: Baseline Implementation.
 
 Contact:  
+Amirhossein Jafarnezhad: 
 Sepehr Kakoli: sepehrk890@gmail.com  
 Seyedeh Sara Davari: saradavari2009@gmail.com  
 Danial Rafiee:  
