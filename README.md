@@ -73,22 +73,9 @@ Translation memory retrieval
 Knowledge graph relationships
 
 Dependencies:  
-os  
-re  
-gc  
-csv  
-json  
-torch  
-difflib  
-warnings  
-unicodedata  
-numpy  
-pandas  
-pathlib  
-tqdm  
-plotly  
-collections  
-transformers  
+- Python 3.11 or later
+- Install dependencies:
+- '''bash pip install -r requirements.txt
 
 How to run:  
 
