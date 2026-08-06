@@ -105,7 +105,7 @@ Danial Rafiee: UI/UX Design.
 Ali Akbar Khara: Baseline Implementation.
 
 Contact:  
-Amirhossein Jafarnezhad: 
+Amirhossein Jafarnezhad: aiamirjd@gmail.com  
 Sepehr Kakoli: sepehrk890@gmail.com  
 Seyedeh Sara Davari: saradavari2009@gmail.com  
 Danial Rafiee:  
