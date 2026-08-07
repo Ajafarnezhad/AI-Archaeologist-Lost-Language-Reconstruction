@@ -1,0 +1,6 @@
+timestamp,category,action,detail
+2026-08-06T01:16:06.858Z,Dictionary,swap,direction → en2akk
+2026-08-06T01:20:52.226Z,Dictionary,swap,direction → akk2en
+2026-08-06T01:21:00.049Z,Gap,paste,𒀭𒀝𒌋 𒋫 𒀀 𒌝𒈠𒉡 𒋫
+2026-08-06T01:21:35.526Z,AI,reconstruct,"prompt=""𒀭𒀝𒌋 𒋫 <gap> 𒌝𒈠𒉡 <big_gap>""; model=INNOVERSE ByT5 soup + gap-fill; confidence=79%; gaps=2; ms=22634; english=""<big_gap> <big_gap> <big_gap>"""
+2026-08-06T01:25:40.167Z,Masters,open-profile,Abdul Majid Arfaei
