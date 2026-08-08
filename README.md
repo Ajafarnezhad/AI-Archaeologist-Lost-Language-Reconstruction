@@ -75,7 +75,7 @@ Knowledge graph relationships
 Dependencies:  
 - Python 3.11 or later
 - Install dependencies:
-- ```bash pip install -r Requirements.txt```
+- ```pip install -r Requirements.txt```
 
 How to run:  
 
