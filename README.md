@@ -18,7 +18,7 @@ This multi-layered approach makes the system more reliable while also making its
 Why We Built It This Way:  
 One of the greatest challenges in ancient language reconstruction is uncertainty. Several different reconstructions may seem reasonable, yet only one reflects the original meaning.  
 Instead of hiding this uncertainty, we designed our system to acknowledge it. Every reconstruction is accompanied by a confidence score and supporting evidence so users can better understand the reliability of the prediction.  
-We also wished to move beyond treating language as individual words.
+We also wished to move beyond treating language as individual words.  
 By organizing reconstructed information into knowledge graphs, the system captures the relationships between historical entities and concepts, making the output more informative.
 
 Features:  
