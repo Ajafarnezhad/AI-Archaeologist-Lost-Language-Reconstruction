@@ -62,11 +62,10 @@ Final Reconstruction
 Example:  
 Input Fragment:  
 The k__g built the temple for god.  
-Candidate Reconstructions:
-1. king - 94%
-2. kong - 3%
-3. keng - 3%
-
+Candidate Reconstructions:  
+● king - 94%  
+○ kong - 3%  
+○ keng - 3%  
 Selected Reconstruction:  
 The king built the temple for god.
 Supporting Evidence:
