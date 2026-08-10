@@ -65,7 +65,7 @@ The k__g built the temple for god.
 Candidate Reconstructions:  
 1. king - 94%
 2. kong - 3%
-3. keng - 3%
+3. keng - 3%  
 Selected Reconstruction:  
 The king built the temple for god.
 Supporting Evidence:
