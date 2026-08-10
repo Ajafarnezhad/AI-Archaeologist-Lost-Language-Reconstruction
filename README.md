@@ -1,7 +1,7 @@
 # AI Archaeologist: Ancient Language Reconstruction
 
 Project Overview:  
-Ancient inscriptions are often incomplete because they have been damaged by time, weather, or human activity. Missing words and broken tablets make it difficult for archaeologists to understand the concept of the original texts.
+Ancient inscriptions are often incomplete because they have been damaged by time, weather, or human activity. Missing words and broken tablets make it difficult for archaeologists to understand the meaning of the original texts.
 Reconstructing these fragments is often a time-consuming and inefficient process that requires high expertise.  
 AI Archaeologist was developed to assist in this process.
 We built this intelligent system to help in reconstructing missing language fragments, while explaining the reasoning behind each prediction.
@@ -24,7 +24,7 @@ By organizing reconstructed information into knowledge graphs, the system captur
 Features:  
 Our system includes:  
 Ensemble deep learning reconstruction using multiple ByT5 models  
-Intelligent post-processing to improve quality  
+Post-processing using lexical matching and translation memory to improve quality  
 Translation memory retrieval using similar historical examples  
 Semantic analysis for better understanding  
 Confidence estimation for every prediction  
@@ -87,7 +87,7 @@ Team:
 Team members:  
 Amirhossein Jafarnezhad: Team leader  
 Sepehr Kakoli: Code localization, confidence interval integration and performance analysis.  
-Seyedeh Sara Davari: Interactive graph development, code refactoring and README preperation.  
+Seyedeh Sara Davari: Interactive graph development, code refactoring and README preparation.  
 Danial Rafiee: UI/UX Design.  
 Ali Akbar Khara: Baseline Implementation.
 
@@ -99,4 +99,4 @@ Danial Rafiee: rafieedanial414@gmail.com
 Ali Akbar Khara: mzkh209090@gmail.com
 
 Acknowledgements:  
-This projects was developed for the Innoverse Expo AI Programming Challenge. It gave us an opportunity to explore how modern AI techniques can be applied to ancient language reconstruction and how explainable AI can make the results and predictions more transparent.
+This project was developed for the Innoverse Expo AI Programming Challenge. It gave us an opportunity to explore how modern AI techniques can be applied to ancient language reconstruction and how explainable AI can make the results and predictions more transparent.
