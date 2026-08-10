@@ -67,8 +67,8 @@ Candidate Reconstructions:
 ○ kong - 3%  
 ○ keng - 3%  
 Selected Reconstruction:  
-The king built the temple for god.
-Supporting Evidence:
+The king built the temple for god.  
+Supporting Evidence:  
 Grammar: "king" correctly functions as the subject of the sentence.  
 Semantic context: "built the temple" is strongly associated with a person or ruler.  
 Lexical matching: "king" matches known historical vocabulary.  
