@@ -73,8 +73,8 @@ Grammar: "king" correctly functions as the subject of the sentence.
 Semantic context: "built the temple" is strongly associated with a person or ruler.  
 Lexical matching: "king" matches known historical vocabulary.  
 Translation memory: Similar historical examples contain the phrase "king built the temple."  
-Knowledge graph: "king" is connected to historical rulers, temples, and religious contexts.
-Confidence:
+Knowledge graph: "king" is connected to historical rulers, temples, and religious contexts.  
+Confidence:  
 94%
 
 Dependencies:  
