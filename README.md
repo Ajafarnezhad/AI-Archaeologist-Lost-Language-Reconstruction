@@ -10,8 +10,8 @@ Our main goal was to make the system explainable. Rather than only generating a 
 Our Solution:  
 We designed a reconstruction pipeline where each element contributes to improving the final prediction.  
 The process begins by preprocessing fragmented text before passing it through an ensemble of deep learning models.
-The generated predictions are then refined using lexical matching and translation memory, allowing the system to compare fragments with examples seen before.
-Next, semantic analysis identifies important relationships within the reconstructed sentence. These relationships are transformed into an archaeological knowledge graph that connects historical periods, semantic concepts, linguistic relationships, words, and characters.
+The generated predictions are then refined using lexical matching and translation memory, allowing the system to compare fragments with examples seen before.  
+Next, semantic analysis identifies important relationships within the reconstructed sentence. These relationships are transformed into an archaeological knowledge graph that connects historical periods, semantic concepts, linguistic relationships, words, and characters.  
 Finally, the system evaluates its own confidence and generates an explanation describing why a particular reconstruction was selected.  
 This multi-layered approach makes the system more reliable while also making its decisions easier to understand.
 
