@@ -60,17 +60,22 @@ Explainability Report
 Final Reconstruction
 
 Example:  
-Input:  
-The k__g built the temple.  
-Reconstruction:  
-The king built the temple.  
-Confidence:  
-94%  
-Supporting Evidence:  
-Grammar consistency  
-Semantic context  
-Translation memory retrieval  
-Knowledge graph relationships
+Input Fragment:  
+The k__g built the temple for god.  
+Candidate Reconstructions:  
+1. king - 94%
+2. kong - 3%
+3. keng - 3%
+Selected Reconstruction:  
+The king built the temple for god.
+Supporting Evidence:
+Grammar: "king" correctly functions as the subject of the sentence.  
+Semantic context: "built the temple" is strongly associated with a person or ruler.  
+Lexical matching: "king" matches known historical vocabulary.  
+Translation memory: Similar historical examples contain the phrase "king built the temple."  
+Knowledge graph: "king" is connected to historical rulers, temples, and religious contexts.
+Confidence:
+94%
 
 Dependencies:  
 - Python 3.11 or later
