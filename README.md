@@ -1,10 +1,10 @@
 # AI Archaeologist: Ancient Language Reconstruction
 
 Project Overview:  
-Ancient inscriptions are often incomplete because they have been damaged by time, weather, or human activity. Missing words and broken tablets make it difficult for archaeologists to understand the meaning of the original texts.
+Ancient inscriptions are often incomplete due to damage, leaving archaeologists with missing words, broken sentences, and uncertain interpretations.
 Reconstructing these fragments is often a time-consuming and inefficient process that requires high expertise.  
 AI Archaeologist was developed to assist in this process.
-We built this intelligent system to help in reconstructing missing language fragments, while explaining the reasoning behind each prediction.
+Given a fragmented ancient Akkadian text, the system generates possible reconstructions using an ensemble of ByT5 models, and then refines these predictions using lexical matching, translation memory, and semantic analysis.
 One of our main goals was to make the system explainable. Rather than only generating a reconstructed text, the model also provides confidence scores, supporting evidence, and graph-based representations to help users understand the process of reaching the final prediction.
 
 Our Solution:  
