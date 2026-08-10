@@ -95,7 +95,7 @@ Contact:
 Amirhossein Jafarnezhad: aiamirjd@gmail.com  
 Sepehr Kakoli: sepehrk890@gmail.com  
 Seyedeh Sara Davari: saradavari2009@gmail.com  
-Danial Rafiee:  
+Danial Rafiee: rafieedanial414@gmail.com  
 Ali Akbar Khara: mzkh209090@gmail.com
 
 Acknowledgements:  
