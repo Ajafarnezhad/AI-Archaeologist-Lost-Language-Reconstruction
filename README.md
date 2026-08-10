@@ -4,7 +4,7 @@ Project Overview:
 Ancient inscriptions are often incomplete due to human activities, natural disasters, and other elements, leaving archaeologists with missing words, broken sentences, and uncertain interpretations.
 Reconstructing these fragments is often a time-consuming and inefficient process that requires high expertise.  
 AI Archaeologist was developed to assist in this process.  
-This system analyzes incomplete texts and generates possible reconstructions while providing confidence scores, supporting evidence, and graph-based representations of the relationships within the text.
+This system analyzes incomplete texts and generates possible reconstructions while providing confidence scores, supporting evidence, and graph-based representations of the relationships within the text.  
 Our main goal was to make the system explainable. Rather than only generating a reconstructed text, AI Archaeologist helps users understand the evidence behind each prediction and how different historical and linguistic relationships contribute to the final reconstruction.
 
 Our Solution:  
