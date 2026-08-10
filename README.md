@@ -8,7 +8,7 @@ This system analyzes incomplete texts and generates possible reconstructions whi
 Our main goal was to make the system explainable. Rather than only generating a reconstructed text, AI Archaeologist helps users understand the evidence behind each prediction and how different historical and linguistic relationships contribute to the final reconstruction.
 
 Our Solution:  
-We designed a reconstruction pipeline where each element contributes to improving the final prediction.
+We designed a reconstruction pipeline where each element contributes to improving the final prediction.  
 The process begins by preprocessing fragmented text before passing it through an ensemble of deep learning models.
 The generated predictions are then refined using lexical matching and translation memory, allowing the system to compare fragments with examples seen before.
 Next, semantic analysis identifies important relationships within the reconstructed sentence. These relationships are transformed into an archaeological knowledge graph that connects historical periods, semantic concepts, linguistic relationships, words, and characters.
