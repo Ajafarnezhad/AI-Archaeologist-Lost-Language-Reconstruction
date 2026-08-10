@@ -86,7 +86,9 @@ How to run:
 
 Future Improvements:  
 Although the current system provides reliable reconstructions, there are many exciting directions we would like to explore in the future.  
-These include supporting OCR for damaged inscriptions, incorporating Graph Neural Networks for richer historical reasoning, and using multilingual datasets.
+One important improvement would be adding OCR support for damages inscriptions, allowing the system to directly work with images of ancient texts instead of requiring transcribed fragments.  
+We would also like to explore Graph Neural Networks to make better use of the relationships represented in our archaeological knowledge graphs. This could help the system incorporate historical and linguistic context more deeply when making reconstruction decisions.  
+Another fascinating direction could be expanding the project to multilingual datasets and a wider range of ancient languages. This would allow us to evaluate how well the approach generalizes across different writing systems and time periods.
 
 Team:  
 Team members:  
