@@ -4,8 +4,8 @@ Project Overview:
 Ancient inscriptions are often incomplete due to damage, leaving archaeologists with missing words, broken sentences, and uncertain interpretations.
 Reconstructing these fragments is often a time-consuming and inefficient process that requires high expertise.  
 AI Archaeologist was developed to assist in this process.
-Given a fragmented ancient Akkadian text, the system generates possible reconstructions using an ensemble of ByT5 models, and then refines these predictions using lexical matching, translation memory, and semantic analysis.
-One of our main goals was to make the system explainable. Rather than only generating a reconstructed text, the model also provides confidence scores, supporting evidence, and graph-based representations to help users understand the process of reaching the final prediction.
+This system analyzes incomplete texts and generates possible reconstructions while providing confidence scores, supporting evidence, and graph-based representations of the relationships within the text.
+Our main goal was to make the system explainable. Rather than only generating a reconstructed text, AI Archaeologist helps users understand the evidence behind each prediction and how different historical and linguistic relationships contribute to the final reconstruction.
 
 Our Solution:  
 We designed a reconstruction pipeline where each element contributes to improving the final prediction.
