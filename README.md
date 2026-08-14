@@ -828,7 +828,17 @@ Explain that Akkadian is the proof of concept for a broader evidence-based AI fr
 
 ---
 
-# 29. Acknowledgements
+# 29. Contact
+
+- **Amirhossein Jafarnezhad** — aiamirjd@gmail.com
+- **Sepehr Kakoli** — sepehrk890@gmail.com
+- **Seyedeh Sara Davari** — saradavari2009@gmail.com
+- **Danial Rafiee** — rafieedanial414@gmail.com
+- **Ali Akbar Khara** — mzkh209090@gmail.com
+
+---
+
+# 30. Acknowledgements
 
 This project was developed for the **Innoverse Expo AI Programming Challenge**.
 
