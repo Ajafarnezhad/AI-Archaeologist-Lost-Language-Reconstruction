@@ -308,9 +308,7 @@ and
 
 ---
 
-# 10
-
-. Archaeological Knowledge Graph
+# 10. Archaeological Knowledge Graph
 
 The knowledge graph extends reconstruction beyond isolated words.
 
