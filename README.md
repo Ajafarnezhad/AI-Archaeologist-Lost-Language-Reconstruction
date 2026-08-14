@@ -31,7 +31,16 @@ The first proof of concept focuses on **Akkadian**, while the architecture is in
 
 ---
 
-# 2. What Makes INNOVERSE Different?
+# 2. Why We Built it This Way:
+
+One of the greatest challenges in ancient language reconstruction is uncertainty. Several different reconstructions may seem reasonable, yet only one reflects the original meaning.
+Instead of hiding this uncertainty, we designed our system to acknowledge it. Every reconstruction is accompanied by a confidence score and supporting evidence so users can better understand the reliability of the prediction.
+We also wished to move beyond treating language as individual words.
+By organizing reconstructed information into knowledge graphs, the system captures the **relationships between historical entities and concepts, making the output more informative.**
+
+---
+
+# 3. What Makes INNOVERSE Different?
 
 Most reconstruction systems can produce a plausible answer. The harder question is:
 
@@ -55,7 +64,7 @@ The engine also provides confidence information and supporting evidence so users
 
 ---
 
-# 3. Core Features
+# 4. Core Features
 
 ### AI Reconstruction
 - Ensemble of three fine-tuned ByT5-base checkpoints
@@ -109,7 +118,7 @@ These relationships can be visualized through interactive graph layers.
 
 ---
 
-# 4. System Architecture
+# 5. System Architecture
 
 INNOVERSE combines the reconstruction architecture described in the AI Archaeologist system with the evidence-grounded pipeline of the INNOVERSE engine.
 
@@ -165,9 +174,9 @@ INNOVERSE combines the reconstruction architecture described in the AI Archaeolo
 
 ---
 
-# 5. How the AI Model Works
+# 9. How the AI Model Works
 
-## 5.1 ByT5 Ensemble
+## 6.1 ByT5 Ensemble
 
 The system uses three fine-tuned **ByT5-base** checkpoints for Akkadian-to-English translation with gap handling.
 
@@ -179,7 +188,7 @@ The model soup is cached after its first construction so later launches can load
 
 ---
 
-## 5.2 Candidate Generation
+## 6.2 Candidate Generation
 
 Instead of always selecting one deterministic output, the engine uses sampling to generate multiple candidate reconstructions.
 
@@ -196,7 +205,7 @@ This also allows the user to reconstruct the same fragment again and receive a d
 
 ---
 
-# 6. Gap Reconstruction
+# 7. Gap Reconstruction
 
 The reconstruction endpoint accepts transliterated fragments containing missing spans such as:
 
@@ -230,7 +239,7 @@ This limitation is intentionally exposed to the user.
 
 ---
 
-# 7. Evidence-Based Reconstruction
+# 8. Evidence-Based Reconstruction
 
 This is one of the most important parts of INNOVERSE.
 
@@ -265,7 +274,7 @@ If no sufficiently reliable parallel is found, the system can leave a gap unreso
 
 ---
 
-# 8. Explainable AI
+# 9. Explainable AI
 
 INNOVERSE is designed not merely to output a reconstruction, but to explain the evidence supporting it.
 
@@ -299,7 +308,9 @@ and
 
 ---
 
-# 9. Archaeological Knowledge Graph
+# 10
+
+. Archaeological Knowledge Graph
 
 The knowledge graph extends reconstruction beyond isolated words.
 
@@ -334,7 +345,7 @@ This provides another layer of context for interpretation and visualization.
 
 ---
 
-# 10. Example
+# 11. Example
 
 ### Input
 
@@ -374,7 +385,7 @@ The confidence score is intended as an estimate of reliability, not proof that t
 
 ---
 
-# 11. User Experience
+# 12. User Experience
 
 INNOVERSE is designed as an interactive platform rather than a command-line-only research tool.
 
@@ -397,7 +408,7 @@ Users can also enter their own transliterated Akkadian and mark damaged sections
 
 ---
 
-# 12. Dictionary & Cuneiform Tools
+# 13. Dictionary & Cuneiform Tools
 
 The platform includes an Akkadian dictionary containing approximately **11,154 entries**.
 
@@ -413,7 +424,7 @@ The platform also provides cuneiform-related API functionality for transliterati
 
 ---
 
-# 13. API Architecture
+# 14. API Architecture
 
 The Python engine serves both the website and its API from the same local address.
 
@@ -443,7 +454,7 @@ This local architecture avoids the need for a separate cross-origin frontend/bac
 
 ---
 
-# 14. Advanced Reliability Pipeline
+# 15. Advanced Reliability Pipeline
 
 Beyond the core model, the engine includes additional mechanisms intended to improve reliability:
 
@@ -461,7 +472,7 @@ These components work as supporting layers around the main translation/reconstru
 
 ---
 
-# 15. Measuring Quality
+# 16. Measuring Quality
 
 INNOVERSE does not rely only on subjective demonstrations.
 
@@ -493,7 +504,7 @@ The exact evaluation figures depend on the held-out dataset used for evaluation.
 
 ---
 
-# 16. Quick Start
+# 17. Quick Start
 
 ## Requirements
 
@@ -562,7 +573,7 @@ RUN_INNOVERSE.bat
 
 ---
 
-# 17. Manual Launch
+# 18. Manual Launch
 
 If required, the engine can also be started manually:
 
@@ -572,7 +583,7 @@ python innoverse_pipeline_final.py --serve --ui-dir . --model-path models/model_
 
 ---
 
-# 18. First Launch
+# 19. First Launch
 
 The first launch can take a few minutes because the three checkpoints are combined into the model soup and cached.
 
@@ -584,7 +595,7 @@ Closing that engine window stops the local service.
 
 ---
 
-# 19. Project Structure
+# 20. Project Structure
 
 ```text
 ui2innovers/
@@ -618,7 +629,7 @@ ui2innovers/
 
 ---
 
-# 20. Data & Sources
+# 21. Data & Sources
 
 The project uses open or appropriately licensed resources described by the original project documentation.
 
@@ -635,7 +646,7 @@ Third-party data, models, fonts, and libraries retain their respective licenses.
 
 ---
 
-# 21. Responsible Reconstruction
+# 22. Responsible Reconstruction
 
 Ancient-language reconstruction contains inherent uncertainty.
 
@@ -652,7 +663,7 @@ This is especially important for low-resource languages where datasets are limit
 
 ---
 
-# 22. Limitations
+# 23. Limitations
 
 The system is strongest when:
 
@@ -672,7 +683,7 @@ The system should therefore be treated as an **assistive research and exploratio
 
 ---
 
-# 23. Future Roadmap
+# 24. Future Roadmap
 
 ## OCR for Damaged Inscriptions
 
@@ -700,7 +711,7 @@ Combine linguistic evidence with temporal, geographical, cultural, and archaeolo
 
 ---
 
-# 24. Why This Matters Beyond Akkadian
+# 25. Why This Matters Beyond Akkadian
 
 Akkadian is the proof of concept.
 
@@ -732,7 +743,7 @@ can provide a foundation for future tools for ancient and endangered languages.
 
 ---
 
-# 25. Troubleshooting
+# 26. Troubleshooting
 
 | Problem | Solution |
 |---|---|
@@ -744,7 +755,7 @@ can provide a foundation for future tools for ancient and endangered languages.
 
 ---
 
-# 26. Recommended Demo Flow for Judges
+# 27. Recommended Demo Flow for Judges
 
 For the strongest demonstration:
 
@@ -809,7 +820,7 @@ Explain that Akkadian is the proof of concept for a broader evidence-based AI fr
 
 ---
 
-# 27. Team
+# 28. Team
 
 - **Amirhossein Jafarnezhad** — Team leader / supervisor and project direction
 - **Sepehr Kakoli** — Integration, technical support, confidence-related work and performance analysis
@@ -819,7 +830,7 @@ Explain that Akkadian is the proof of concept for a broader evidence-based AI fr
 
 ---
 
-# 28. Acknowledgements
+# 29. Acknowledgements
 
 This project was developed for the **Innoverse Expo AI Programming Challenge**.
 
