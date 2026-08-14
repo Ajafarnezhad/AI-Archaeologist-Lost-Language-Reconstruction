@@ -7,7 +7,7 @@
 
 ---
 
-## 1. Project Overview
+# 1. Project Overview
 
 Ancient inscriptions and clay tablets are often incomplete because of damage, erosion, missing fragments, human activity, or the passage of time. Reconstructing these fragments is difficult, slow, and highly dependent on specialist knowledge.
 
